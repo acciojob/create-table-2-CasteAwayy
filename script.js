@@ -2,7 +2,7 @@ const table = document.querySelector('#myTable');
 
 function createTable()
 {
-  const noOfRows =prompt('Iput number of rows');
+  const noOfRows =prompt('Input number of rows');
   const noOfCols =prompt('Input number of columns');
   for(let i=0;i<noOfRows;i++)
   {
